@@ -12,24 +12,54 @@ h1, h2, h3 {
 
 #signup-section {
     height: 500px;
-    margin-top: 47px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgreen;
+    background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(123, 153, 46, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+#signup-section h2 {
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+#signup-section p {
+    padding: 25px 25px 10px 25px;
 }
 
 #signup-form {
     text-align: center;
     line-height: 25px;
     display: flex;
+    color: #ffffff;
 }
 
-.license-checkboxes {
+
+.input-div > input {
+    width: 250px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+}
+
+.input-div {
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 25px;
 }
 
-input {
-    margin-top: 20px;
+.license-selectors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.license-selectors label {
+    
 }

@@ -16,10 +16,64 @@
       <h2>Driver Signup Form</h2>
       <div id="signup-form">
         <form action="#" method="post">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" placeholder="Joe" required />
+          <div class="input-div">
+            <label for="fname">* First Name:</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Joe"
+              aria-label="First Name"
+              required
+            />
+            <br />
+            <label for="lname">* Last Name:</label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Bloggs"
+              aria-label="Last Name"
+              required
+            />
+            <br />
+            <label for="email">* Email Address:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="jbloggs@emailad.co.uk"
+              aria-label="Email Address"
+              required
+            />
+            <br />
+            <label for="phone">* Phone Number:</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="+4471234567891"
+              aria-label="Phone Number"
+              required
+            />
+          </div>
+          <p>Please select all that apply:</p>
+          <div class="license-selectors">
+            <label for="c1">C1:</label>
+            <input type="checkbox" name="c1" id="c1" value="c1" />
+            <label for="c">C:</label>
+            <input type="checkbox" name="c" id="c" value="c" />
+            <label for="c1e">C1E:</label>
+            <input type="checkbox" name="c1e" id="c1e" value="c1e" />
+            <label for="ce">CE:</label>
+            <input type="checkbox" name="ce" id="ce" value="ce" />
+          </div>
         </form>
       </div>
     </section>
   </body>
+  <script
+    src="https://kit.fontawesome.com/5abac9e080.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
